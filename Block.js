@@ -13,6 +13,7 @@ class Block{
       display(){
         var angle = this.body.angle;
         push();
+        angleMode(RADIANS);
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
         rectMode(CENTER);
